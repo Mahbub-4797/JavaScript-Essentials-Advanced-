@@ -1,0 +1,10 @@
+{
+    "name": "Mahbub",
+    "age": 23,
+    "isStudent": true,
+    "hobbies": ["Reading", "Traveling", "Coding"],
+    "address": {
+        "city": "Dhaka",
+        "zipCode": 1001
+    }
+}

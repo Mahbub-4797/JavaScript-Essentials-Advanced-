@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in;
+}
+
+input:focus{
+    background-color: #007bff;
+    outline: none;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save{
+    background-color: #007bff;
+    color: white;
+}
+
+.clear{
+    background-color: #dc3545;
+    color: white;
+}
